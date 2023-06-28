@@ -1,0 +1,160 @@
+html {
+	font-family: 'Karla', sans-serif;
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0;
+	background-color: #121212;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+header {
+		position: sticky;
+	top: -280px;
+}
+
+nav {
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+	display: flex;
+	background-color: #121212;
+	align-items: center;
+	border-bottom: solid black 1px;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.navgeneral {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 5px 0px 5px 0px;
+
+}
+
+nav a{
+	color: #fede6eff;
+	margin: 0px 10px;
+  padding: 7px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #121212;
+	transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
+	transition-timing-function: ease-in-out;
+	border-radius: 20px;
+}
+
+nav a:hover {
+	color: #ffffff;
+	background-color: #222222;
+	border-radius: 20px;
+	box-shadow: #000000 2px 1px;
+}
+
+nav a.activenav {
+	background-color: #222222;
+	color: #ffffff;
+	border-radius: 20px;
+	box-shadow: #fede6eff 2px 1px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color: #ffffff;
+}
+
+.headlogo {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px 20px 0px;
+	display: block;
+}
+
+main {
+	margin: auto;
+	padding: 10px 15px;
+	max-width: 1080px;
+	color: #ffffff;
+}
+
+.cardroll {
+	display: flex;
+	border-radius: 5%;
+	background-color: #121212;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 100px;
+	height: 115px;
+	margin: 10px;
+	padding: 15px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: #121212;
+	border-radius: 10%;
+	transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
+	transition-timing-function: ease-in-out;
+
+}
+
+.card:hover {
+	background-color: #222222;
+	border-radius: 10%;
+	box-shadow: black 5px 2px;
+}
+
+.card:hover .cardname{
+	color: #ffffff;
+}
+
+.card.activecard {
+	background-color: #222222;
+	padding: 30px;
+  border-radius: 15%;
+	box-shadow: #fede6eff 3px 1px;
+	width: auto;
+	height: auto;
+	border-radius: 15px;
+}
+
+.card.activecard p {
+	color: #ffffff;
+}
+
+.cardimg {
+	max-width: 100%;
+	width: 75px;
+	border-radius: 50%;
+	margin: 0px 0px 10px 0px;
+
+}
+
+.cardname {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fede6eff;
+	transition: color 0.15s;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.activename {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
